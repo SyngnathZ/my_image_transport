@@ -214,3 +214,6 @@ target_link_libraries(my_publisher ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 
 add_executable(my_subscriber src/my_subscriber.cpp)
 target_link_libraries(my_subscriber ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+
+add_executable(my_subscriber2 src/my_subscriber2.cpp)
+target_link_libraries(my_subscriber2 ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
